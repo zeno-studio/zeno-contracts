@@ -1,0 +1,78 @@
+<svg width="290" height="500" viewBox="0 0 290 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+ 
+
+  <g>
+    <rect width="290" height="500" rx="40" fill="#181718" stroke-width="1" stroke="#686969" />
+  </g>
+
+<g filter="url(#filter0)">
+<path d="M200 367.404C200 382.126 194.003 397.243 184.216 408.662C174.437 420.072 161.233 427.404 147 427.404C132.626 427.404 117.318 419.938 105.487 408.345C93.6547 396.749 86 381.711 86 367.404C86 353.106 93.645 338.225 105.466 326.782C117.282 315.343 132.596 308 147 308C161.266 308 174.472 315.214 184.236 326.466C194.009 337.73 200 352.689 200 367.404Z" stroke="#c9a40e" stroke-width="20">
+ <animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="20s"
+            type="rotate"
+            from="0 145 371"
+            to="360 145 371"
+            repeatCount="indefinite"
+        />
+      </path>
+  <path d="M212 371.18C212 386.602 203.391 402.831 190.198 415.368C177.015 427.896 160.019 436 144.323 436C128.646 436 112.004 427.914 99.1692 415.411C86.3293 402.904 78 386.664 78 371.18C78 355.584 86.4304 337.429 99.3957 323.033C112.388 308.607 128.974 299 144.323 299C159.696 299 176.632 308.632 189.968 323.079C203.283 337.501 212 355.641 212 371.18Z" stroke="#1a9dda" stroke-width="10">
+ <animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="10s"
+            type="rotate"
+            from="360 145 371"
+            to="0 145 371"
+            repeatCount="indefinite"
+        />
+      </path>
+  <path d="M200 367.404C200 382.126 194.003 397.243 184.216 408.662C174.437 420.072 161.233 427.404 147 427.404C132.626 427.404 117.318 419.938 105.487 408.345C93.6547 396.749 86 381.711 86 367.404C86 353.106 93.645 338.225 105.466 326.782C117.282 315.343 132.596 308 147 308C161.266 308 174.472 315.214 184.236 326.466C194.009 337.73 200 352.689 200 367.404Z" stroke="#e327b4"  stroke-width="10">
+ <animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="20s"
+            type="rotate"
+            from="0 145 371"
+            to="360 145 371"
+            repeatCount="indefinite"
+        />
+      </path>
+
+</g>
+
+
+
+
+<defs>
+<filter id="filter0"   filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+   <feTurbulence
+      type="turbulence"
+      baseFrequency="0.05"
+      numOctaves="2"
+      result="turbulence" />
+    <feDisplacementMap
+      in2="turbulence"
+      in="SourceGraphic"
+      scale="50"
+      xChannelSelector="R"
+      yChannelSelector="G" />
+<feGaussianBlur stdDeviation="4" />
+</filter>
+
+<filter id="filter1"   filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="1" />
+</filter>
+
+</defs>
+
+<g filter="url(#filter1)">
+<circle cx="150" cy="380" r="48" fill="#111110" stroke-width="0.5" stroke="#eaeaea"/>
+
+</g>
+  
+
+</svg>
+
+

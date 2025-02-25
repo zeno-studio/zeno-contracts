@@ -1,0 +1,87 @@
+<svg width="290" height="500" viewBox="0 0 290 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .T {
+      font: 28px Arial Black, sans-serif;
+      fill: #E9E8D4;
+      text-shadow: 0 0 20px #09daf2;
+    }
+    .T1 {
+      font: 20px Tahoma, sans-serif;
+      fill: #E9E8D4;
+    }
+
+    .N {
+      font: 24px Arial Black, sans-serif;
+      fill: #E9E8D4;
+      text-anchor: middle;
+    }
+  </style>
+
+ <defs>
+  <clipPath id="corners">
+  <rect width="290" height="500" rx="42" ry="42" />
+  </clipPath>
+ </defs>
+
+  <filter id="blur">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+  </filter>
+    <filter id="blur1">
+  <feGaussianBlur in="SourceGraphic" stdDeviation="6" />
+  </filter>
+
+  <g clip-path="url(#corners)">
+    <rect x="0" y="0" width="290" height="500" rx="42" ry="42" fill="#122647" stroke="rgba(255,255,255,0.2)" />
+     
+     <rect fill="none" x="0px" y="0px" width="290px" height="500px" />
+     
+  
+    <rect x="16" y="16" width="258" height="468" rx="26" ry="26"  stroke="rgba(255,255,255,0.2)" />
+    <line x1="145" x2="145" y1="60" y2="120" stroke-width="1" stroke="#E9E8D4" />
+
+    <text x="40" y="100" class="T">ZENO </text>
+    <text x="160" y="97" class="T1">CHARTER</text>
+    <text x="145" y="250" class="N">5112</text>
+  </g>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+x="125" y="135" 
+width="40" height="40" viewBox="0 0 256 256" fill="none" >
+<rect stroke="#fff" width="256" height="256" rx="60" />
+<line fill="none" stroke="#fff" x1="60" y1="128" x2="196" y2="128"  stroke-width="10"/>
+<polygon fill="#fff" points="50,50 206,50 50,206 206,206" />
+</svg>
+
+<g>
+   <circle cx="145" cy="370" r="52" fill="none" stroke="#fffefe" filter="url(#blur1)"/>
+    <circle cx="145" cy="370" r="50" fill="none" stroke="#ffffff" filter="url(#blur)"/>
+  <circle cx="145" cy="370" r="46" fill="#fffefe" />
+  <ellipse cx="178" cy="348" rx="3" ry="5" transform="rotate(-33 181 343)" fill="#d3cece" filter="url(#blur)"/>
+<path d="M148 348L146 352C146 352 144 361 148 361C151 361 155 359 155 359V352L159 354L161 363L167 366C167 366 167 373 170 373C172 373 174 370 174 370L172 366L174 361L179 366L186 373L189 368L188 359C188 359 183 354 179 354C174 354 174 349 172 348C170 347 170 350 170 350L165 348C165 348 166 344 165 342C163 337 155 339 151 339C147 339 148 348 148 348Z" fill="#d3cece" filter="url(#blur)"/>
+<path d="M108 383L117 391L122 392L124 399C124 399 132 401 133 398C135 395 126 394 128 389C130 385 136 386 136 386C136 386 140 398 144 395C148 392 148 388 148 388L144 379H138L132 373L128 371H124C124 371 120 366 122 361C124 356 128 357 128 357C128 357 135 352 136 351C138 350 133 344 133 344C133 344 126 336 124 342C121 347 116 351 116 351V346C116 346 111 342 108 347C105 353 100 367 102 371C104 376 108 383 108 383Z" fill="#d3cece" filter="url(#blur)"/>
+ 
+  <path fill="#161c2c" filter="url(#blur)" >
+    <animate attributeName="d"
+            begin="0s"
+            dur="30s"
+            values="
+            M95 370C95 374 99 418 145 420C117.386 420 95 397.614 95 370C95 342.386 117.386 320 145 320C99.5 321.5 95 366 95 370Z;
+            M120.5 370C120.5 374 120.5 400.5 145 420C117.386 420 95 397.614 95 370C95 342.386 117.386 320 145 320C120.5 340 120.5 366 120.5 370Z;
+            M145 370C145 397.614 145 376 145 420C117.386 420 95 397.614 95 370C95 342.386 117.386 320 145 320C145 346 145 342.386 145 370Z;
+            M170 370C170 380 166.5 410 145 420C117.386 420 95 397.614 95 370C95 342.386 117.386 320 145 320C165.5 330.5 170 360 170 370Z;
+            M195 370C195 397.614 172.614 420 145 420C117.386 420 95 397.614 95 370C95 342.386 117.386 320 145 320C172.614 320 195 342.386 195 370Z;
+            M195 370C195 397.614 172.614 420 145 420C125.5 410.5 120.5 384.5 120.5 370C120.5 355.5 127 330 145 320C172.614 320 195 342.386 195 370Z;
+            M195 370C195 397.614 172.614 420 145 420C145 395 145 384.5 145 370C145 355.5 145 349 145 320C172.614 320 195 342.386 195 370Z;
+            M195 370C195 397.614 172.614 420 145 420C170 403 170 375 170 370C170 365 170 338 145 320C172.614 320 195 342.386 195 370Z;
+            M195 370C195 374 191 418 145 420C172.614 420 195 397.614 195 370C195 342.386 172.614 320 145 320C190.5 321.5 195 366 195 370Z;
+            "
+            repeatCount="indefinite">
+        </animate>
+   </path>
+</g>
+
+
+
+</svg>
+
+

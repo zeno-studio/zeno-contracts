@@ -1,0 +1,102 @@
+<svg width="290" height="500" viewBox="0 0 290 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<filter id="filter0"   filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+   <feTurbulence
+      type="turbulence"
+      baseFrequency="0.05"
+      numOctaves="2"
+      result="turbulence" />
+    <feDisplacementMap
+      in2="turbulence"
+      in="SourceGraphic"
+      scale="50"
+      xChannelSelector="R"
+      yChannelSelector="G" />
+<feGaussianBlur stdDeviation="4" />
+</filter>
+  <filter id="blur">
+  <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+  </filter>
+  <filter id="blur1">
+  <feGaussianBlur in="SourceGraphic" stdDeviation="6" />
+  </filter>
+
+
+   <style>
+    .T {
+      
+    }
+    .T1 {
+      font: 20px Tahoma, sans-serif;
+      fill: #000;
+    }
+
+    .N {
+      font: 24px Arial Black, sans-serif;
+      fill: #000;
+      text-anchor: middle;
+    }
+  </style>
+
+ <defs>
+  <clipPath id="corners">
+  <rect width="290" height="500" rx="42" ry="42" />
+  </clipPath>
+ </defs>
+
+  <g clip-path="url(#corners)">
+    <rect x="0" y="0" width="290" height="500" rx="42" ry="42" fill="#f0c06d" stroke="rgba(0,0,0,0.2)" />
+    <rect fill="none" x="0px" y="0px" width="290px" height="500px" />
+    <rect x="16" y="16" width="258" height="468" rx="26" ry="26"  stroke="rgba(0,0,0,0.2)" />
+    <line x1="145" x2="145" y1="60" y2="120" stroke-width="1" stroke="#000" />
+    <text x="40" y="100" style="fill: #000;font: 28px Arial Black, sans-serif;text-shadow:0 0 20px #f08233;">ZENO </text>
+    <text x="160" y="97" class="T1">CHARTER</text>
+    <text x="145" y="250" class="N">4503</text>
+  </g>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+x="125" y="135" 
+width="40" height="40" viewBox="0 0 256 256" fill="none" >
+<rect stroke="#000" width="256" height="256" rx="60" />
+<line fill="none" stroke="#000" x1="60" y1="128" x2="196" y2="128"  stroke-width="10"/>
+<polygon fill="#000" points="50,50 206,50 50,206 206,206" />
+</svg>
+
+
+<g filter="url(#filter0)">
+<path d="M200 367.404C200 382.126 194.003 397.243 184.216 408.662C174.437 420.072 161.233 427.404 147 427.404C132.626 427.404 117.318 419.938 105.487 408.345C93.6547 396.749 86 381.711 86 367.404C86 353.106 93.645 338.225 105.466 326.782C117.282 315.343 132.596 308 147 308C161.266 308 174.472 315.214 184.236 326.466C194.009 337.73 200 352.689 200 367.404Z" stroke="#fdfaa2" stroke-width="20">
+ <animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="20s"
+            type="rotate"
+            from="0 145 371"
+            to="360 145 371"
+            repeatCount="indefinite"
+        />
+      </path>
+  <path d="M212 371.18C212 386.602 203.391 402.831 190.198 415.368C177.015 427.896 160.019 436 144.323 436C128.646 436 112.004 427.914 99.1692 415.411C86.3293 402.904 78 386.664 78 371.18C78 355.584 86.4304 337.429 99.3957 323.033C112.388 308.607 128.974 299 144.323 299C159.696 299 176.632 308.632 189.968 323.079C203.283 337.501 212 355.641 212 371.18Z" stroke="#f4686a" stroke-width="3">
+ <animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="10s"
+            type="rotate"
+            from="360 145 371"
+            to="0 145 371"
+            repeatCount="indefinite"
+        />
+      </path>
+ 
+</g>
+
+
+
+
+
+
+<g filter="url(#filter1)">
+<circle cx="154" cy="380" r="48" fill="#f53f1a" stroke-width="3" stroke="#eac981" filter="url(#blur1)" />
+
+</g>
+
+</svg>
+
