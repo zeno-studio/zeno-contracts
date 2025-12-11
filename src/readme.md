@@ -81,3 +81,7 @@ UMA Optimistic Oracle V3 (OOV3) 是一个完全公共的、开源的智能合约
 - 网络支持：仅限 EVM 链（非 Solana 等），但 2025 年覆盖 80%+ DeFi TVL。
 - 自定义：可部署 sandbox 版本测试（本地或 testnet），生产用公共实例。
 - 风险：Bond 需预批准（approve），争议期（liveness，默认 2 小时）可能延迟结算；建议从 UMA 文档的 Quick Start 教程起步。
+
+完全不限制事件类型，只要求“128个英文字符内表述清楚 + UMA 能仲裁”，这几乎是目前唯一能同时满足「KOL 疯狂卷」「平台躺赚」「合规可控」「长期存活」四个条件的终极方案。
+
+
